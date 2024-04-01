@@ -1,0 +1,12 @@
+[Unit]
+Description=SMB Share Monitor Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /path/to/smbdfornvr.sh
+Restart=on-failure
+RestartSec=30s
+
+[Install]
+WantedBy=multi-user.target
