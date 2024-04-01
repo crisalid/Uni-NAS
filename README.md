@@ -11,11 +11,12 @@ Some vendors, like Ubiquity, provide device updates leading to SMB configuration
 In many networked environments, SMB shares are essential for file sharing among users and systems. However, configurations can become corrupted or altered, leading to downtime and access issues. This script automates the monitoring and maintenance of SMB share configurations, reducing the need for manual checks and fixes, and ensuring continuous availability of critical network resources.
 
 ## Features
-Automated Monitoring: Continuously checks the SMB share configurations for correctness.
-Self-Repair: Automatically recreates the SMB configuration if it detects missing or incorrect settings.
-Security Focused: Ensures that only designated users and groups have access to specific shares.
-Logging: Records all actions taken to restore configurations, aiding in troubleshooting and audit trails.
-Getting Started
-##Prerequisites
+- Automated Monitoring: Continuously checks the SMB share configurations for correctness.
+- Self-Repair: Automatically recreates the SMB configuration if it detects missing or incorrect settings.
+- Security Focused: Ensures that only designated users and groups have access to specific shares.
+- Logging: Records all actions taken to restore configurations, aiding in troubleshooting and audit trails.
+- 
+#Getting Started
+### Prerequisites
 A Linux system with Samba installed.
 Root or sudo privileges.
