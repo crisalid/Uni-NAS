@@ -7,6 +7,7 @@ SMB Share Monitor and Configuration Script
 This project provides a Bash script designed to monitor the accessibility of SMB shares on a Linux system and ensure their configuration is correct. It's particularly useful in environments where SMB shares are critical to operations and need to be reliably available. The script checks for the existence of specific SMB share configurations in /etc/samba/smb.conf and recreates them if they are missing, ensuring both Public and Protected shares are correctly set up for designated user groups.
 
 ## Why This Script?
+Some vendors, like Ubiquity, provide device updates leading to SMB configuration reset.
 In many networked environments, SMB shares are essential for file sharing among users and systems. However, configurations can become corrupted or altered, leading to downtime and access issues. This script automates the monitoring and maintenance of SMB share configurations, reducing the need for manual checks and fixes, and ensuring continuous availability of critical network resources.
 
 ## Features
