@@ -15,7 +15,6 @@ In many networked environments, SMB shares are essential for file sharing among 
 - Self-Repair: Automatically recreates the SMB configuration if it detects missing or incorrect settings.
 - Security Focused: Ensures that only designated users and groups have access to specific shares.
 - Logging: Records all actions taken to restore configurations, aiding in troubleshooting and audit trails.
-- 
 #Getting Started
 ### Prerequisites
 A Linux system with Samba installed.
