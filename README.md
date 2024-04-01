@@ -17,5 +17,5 @@ In many networked environments, SMB shares are essential for file sharing among 
 - Logging: Records all actions taken to restore configurations, aiding in troubleshooting and audit trails.
 #Getting Started
 ### Prerequisites
-A Linux system with Samba installed.
-Root or sudo privileges.
+- A Linux system.
+- Root or sudo privileges.
