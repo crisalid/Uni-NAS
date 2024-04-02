@@ -18,6 +18,23 @@ In many networked environments, SMB shares are essential for file sharing among 
 
   
 #Getting Started
+
 ## Prerequisites
 - A Linux system.
 - Root or sudo privileges.
+
+## Create Necessary Users and Groups
+```console
+# Create groups
+sudo groupadd publicgrp
+sudo groupadd protectedgrp
+
+# Create users and add them to their respective groups
+sudo useradd Alice -M -G publicgrp
+sudo useradd Bob -M -G protectedgrp
+
+# Set passwords for users
+sudo smbpasswd -a Alice
+sudo smbpasswd -a Bob
+
+```
