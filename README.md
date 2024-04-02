@@ -1,4 +1,4 @@
-# uni-nas
+# Uni-nas
 SMB Share Monitor and Configuration Script
 
 (A script to maintain SMB share settings on UDM SE, UDM PRO and similar Linux-based products)
@@ -15,7 +15,9 @@ In many networked environments, SMB shares are essential for file sharing among 
 - Self-Repair: Automatically recreates the SMB configuration if it detects missing or incorrect settings.
 - Security Focused: Ensures that only designated users and groups have access to specific shares.
 - Logging: Records all actions taken to restore configurations, aiding in troubleshooting and audit trails.
+
+  
 #Getting Started
-### Prerequisites
+## Prerequisites
 - A Linux system.
 - Root or sudo privileges.
