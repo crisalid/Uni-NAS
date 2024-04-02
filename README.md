@@ -38,3 +38,10 @@ sudo smbpasswd -a Alice
 sudo smbpasswd -a Bob
 
 ```
+
+## Navigate to the directory containing the script and make it executable:
+```console
+cd path/to/script
+sudo chmod +x smbdfornvr.sh
+
+```
