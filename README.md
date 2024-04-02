@@ -1,4 +1,4 @@
-# Uni-nas
+# Uni-NAS
 SMB Share Monitor and Configuration Script
 
 (A script to maintain SMB share settings on UDM SE, UDM PRO and similar Linux-based products)
